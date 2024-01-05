@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+h2.card-title {
+  font-size: 1.4rem !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+.img-wrapper {
+  height: 17rem;
+}
+
+.card-item {
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.modal-img {
+  width: auto;
+  min-width: 40rem;
+  max-width: 48rem;
+  height: auto;
+  min-height: 20rem;
+  background-color: #eee;
+}
+
+.modal-lg,
+.modal-xl {
+  --bs-modal-width: 1200px !important;
+}
